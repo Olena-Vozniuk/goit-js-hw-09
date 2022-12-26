@@ -23,5 +23,4 @@ function stopColorOnBody() {
     clearInterval(intervalId);
     startBtn.disabled = false;
     stopBtn.disabled = true;
-    body.style.backgroundColor = '';
 };
