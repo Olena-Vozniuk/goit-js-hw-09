@@ -83,5 +83,6 @@ timerEl.style.fontSize = '32px';
 timerEl.style.display = 'flex';
 timerEl.style.justifyContent = 'space-between';
 inputEl.style.textAlign = 'center';
+inputEl.style.marginLeft = '40%';
 document.body.style.backgroundColor = 'beige';
 startBtn.style.cursor = 'pointer';

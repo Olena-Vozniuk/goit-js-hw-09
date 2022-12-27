@@ -11,6 +11,8 @@ function getRandomHexColor() {
 startBtn.addEventListener('click', makeColorOnBody);
 stopBtn.addEventListener('click', stopColorOnBody);
 
+stopBtn.disabled = true;
+
 function makeColorOnBody() {
     intervalId = setInterval(() => {
         body.style.backgroundColor = getRandomHexColor();
@@ -25,3 +27,7 @@ function stopColorOnBody() {
     startBtn.disabled = false;
     stopBtn.disabled = true;
 };
+
+startBtn.style.cursor = 'pointer';
+stopBtn.style.cursor = 'pointer';
+startBtn.style.marginLeft = '50%';
