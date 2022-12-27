@@ -38,11 +38,7 @@ function onFormSubmit(evt) {
   evt.currentTarget.reset();
 };
 
-form.style.display = 'flex';
-form.style.flexDirection = 'column';
-btn = document.querySelector('button');
-console.log(btn);
-btn.style.width = '170px';
+
 
 
 
