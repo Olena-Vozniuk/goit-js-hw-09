@@ -10,6 +10,7 @@ const hours = document.querySelector('[data-hours]');
 const minutes = document.querySelector('[data-minutes]');
 const seconds = document.querySelector('[data-seconds]');
 const timerEl = document.querySelector('.timer');
+let timerIntervalId = null;
 
 startBtn.disabled = true;
 
