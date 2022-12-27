@@ -1,7 +1,7 @@
 const startBtn = document.querySelector('[data-start]');
 const stopBtn = document.querySelector('[data-stop]');
 const body = document.body;
-const intervalId = null;
+let intervalId = null;
 
 
 function getRandomHexColor() {
